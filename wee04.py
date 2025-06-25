@@ -1,5 +1,42 @@
 
 
+example_words = ["apple", "banana", "cat"]
+##function that returns the longest string in the list of words
+def longest_word(words: list[str]) -> str:
+  longest_string = ""
+  for i in range(len(words):
+    ##for loop goes through all entries in list to find longest 
+    if len[i] > longest_string:
+      ##changes the variable to the new longest string in the list
+      longest_string = i 
+      ##exhausts all entries until longest is found and executes print statement
+    else: 
+      print(f"The longest word in the list is {longest_string}")
+
+##finds the shortest string in the list of words
+def shortest_word(words: list[str]) -> str:
+  ##variable for shortest word in the list 
+  shortest_string = words[0]
+  ##for loop to iterate through the whole list
+  for i in range(len(words)):
+    ## finds the shortest string by comparing the variable to the next string in the list
+    if len[i] < shortest_string:
+      shortest_string = i 
+  print(f"The shortest word in the list is {shortest_string}")
+
+##finds the strings with an odd number of characters
+def odd_words(words: list[str]) -> list[str]:
+  for i in words:
+    
+
+
+def average_words(words: list[str]) -> list[str]:
+  
+
+
+def intersect(foo: list[str], bar: list[str]) -> bool:
+
+
 #--------------------------------------------------------------------------------#
 # ⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎  WRITE YOUR CODE ABOVE THIS  LINE ⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎⬆︎
 
